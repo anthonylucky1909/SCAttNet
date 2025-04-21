@@ -1,0 +1,25 @@
+# Core Requirements
+torch>=1.10.0
+torchvision>=0.11.0
+numpy>=1.21.0
+opencv-python>=4.5.0
+Pillow>=9.0.0
+albumentations>=1.1.0
+scikit-image>=0.19.0
+tqdm>=4.62.0
+matplotlib>=3.5.0
+
+# Kaggle Dataset Access
+kagglehub>=0.1.0
+
+# Additional Computer Vision
+scipy>=1.7.0
+imageio>=2.15.0
+
+# Logging and Utilities
+logging-utils>=0.1.0
+python-dotenv>=0.19.0
+
+# Development Tools
+ipython>=8.0.0
+jupyter>=1.0.0
