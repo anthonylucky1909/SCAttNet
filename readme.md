@@ -1,4 +1,4 @@
-# 🚀 **Triple Attention Super-Resolution ** 🔍✨
+# 🚀 Triple Attention Super-Resolution  🔍✨
 
 **Unlock the power of image super-resolution with cutting-edge technology!**  
 *A PyTorch-based model that transforms low-resolution images into high-resolution masterpieces using triple attention mechanisms.*
