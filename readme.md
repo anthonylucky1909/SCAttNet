@@ -1,39 +1,51 @@
-# 🚀 Triple Attention Super-Resolution  🔍✨
-Author : Anthony (Zhejiang University)
-### **Model Architecture Image**
-![Model Architecture](model.png)
+# 🚀 **Triple Attention Super-Resolution**  🔍✨  
+*Author: Anthony (Zhejiang University)*
 
-## Model and Notebook
+## 📥 **Download the Notebook & Trained Model**
 
-I have uploaded the Jupyter Notebook and the trained model for easy download and exploration. The notebook walks through the process, and the model can be used for super-resolution tasks. Feel free to download and experiment!
+Ready to dive into cutting-edge super-resolution? I’ve made it easy for you to get started! Below, you’ll find the Jupyter Notebook and the trained model, both available for download. The notebook walks you through the entire process, and the model is ready to boost your super-resolution tasks. Download, experiment, and unlock the power of super-resolution!
 
-### Jupyter Notebook:
-[Access the notebook](https://drive.google.com/file/d/1uwmyMCoXayzm6EgTMbt-U-ujJks3fPYe/view?usp=sharing)
+### 📖 Jupyter Notebook:
+[Download the notebook](https://drive.google.com/file/d/1uwmyMCoXayzm6EgTMbt-U-ujJks3fPYe/view?usp=sharing)
 
-### Trained Model:
+### 💻 Trained Model:
 [Download the trained model (`model.pth`)](https://drive.google.com/drive/folders/1n_CiytoVxQnah6B-xmSN1F1FFRvWYsFV?usp=drive_link)
 
 ---
-Explore, modify, and enhance the code for your own super-resolution tasks! If you have any questions, feel free to reach out. 🚀
 
-## 🌟 **Key Features**
+## 🔧 **Model Architecture Overview**
 
-- **🧠 Triple Attention Mechanism**  
-  Harnessing the power of Channel, Spatial, and Self-Attention for enhanced feature extraction and detail preservation.
-  
-- **⚡ Progressive Upsampling**  
-  Achieve 4× super-resolution with a high-quality upsampling pipeline.
-  
-- **🎯 Multi-Dataset Support**  
-  Train and evaluate on diverse datasets like DIV2K, Urban100, Manga109, and more.
-
-- **📊 Enhanced Evaluation Metrics**  
-  Performance measured with PSNR, SSIM, and perceptual loss (VGG).
-
-- **🚦 Easy Training Pipeline**  
-  Ready-to-go training with a one-command execution. Just run and go!
+![Model Architecture](model.png)
 
 ---
+
+## 🌟 **What Makes This Model Stand Out?**
+
+- **🧠 Triple Attention Mechanism**  
+  Unlock the power of **Channel**, **Spatial**, and **Self-Attention** to extract intricate features and preserve fine details—elevating your super-resolution capabilities to new heights!
+
+- **⚡ Progressive Upsampling for Ultra-Clear Images**  
+  Achieve **4× super-resolution** through a high-quality upsampling pipeline, designed for those who demand clarity and precision in every pixel.
+
+- **🎯 Train on a Variety of Datasets**  
+  This model is ready to tackle datasets like **DIV2K**, **Urban100**, **Manga109**, and more. You can train, evaluate, and experiment—no need to worry about dataset compatibility!
+
+- **📊 Advanced Performance Metrics**  
+  Track your model's progress with key performance metrics like **PSNR**, **SSIM**, and **perceptual loss (VGG)**—ensuring you get optimal results for every image.
+
+- **🚦 One-Command Training Pipeline**  
+  Forget about complex setups. With just **one command**, you can launch the training process and see your model improve in real-time.
+
+---
+
+## 🌍 **Ready to Experiment?**
+
+Whether you're a researcher, developer, or enthusiast, this model is built for anyone eager to push the boundaries of super-resolution. Dive into the code, modify it to suit your needs, and let your creativity run wild!
+
+---
+
+Explore, experiment, and enhance the super-resolution capabilities for your own tasks. If you run into any questions, don't hesitate to reach out. 🚀
+
 
 ## 🛠️ **Quick Start**
 
