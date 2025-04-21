@@ -6,7 +6,7 @@
 Ready to dive into cutting-edge super-resolution? I’ve made it easy for you to get started! Below, you’ll find the Jupyter Notebook and the trained model, both available for download. The notebook walks you through the entire process, and the model is ready to boost your super-resolution tasks. Download, experiment, and unlock the power of super-resolution!
 
 ### 📖 Jupyter Notebook:
-[Download the notebook](https://drive.google.com/file/d/1uwmyMCoXayzm6EgTMbt-U-ujJks3fPYe/view?usp=sharing)
+[Download the notebook]([https://drive.google.com/file/d/1uwmyMCoXayzm6EgTMbt-U-ujJks3fPYe/view?usp=sharing](https://drive.google.com/file/d/1uwmyMCoXayzm6EgTMbt-U-ujJks3fPYe/view?usp=sharing))
 
 ### 💻 Trained Model:
 [Download the trained model (`model.pth`)](https://drive.google.com/drive/folders/1n_CiytoVxQnah6B-xmSN1F1FFRvWYsFV?usp=drive_link)
