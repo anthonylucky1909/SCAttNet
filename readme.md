@@ -1,16 +1,6 @@
 # 🚀 Triple Attention Super-Resolution  🔍✨
-
-**Unlock the power of image super-resolution with cutting-edge technology!**  
-*A PyTorch-based model that transforms low-resolution images into high-resolution masterpieces using triple attention mechanisms.*
-
-![Super-Resolution Demo](gif/super_resolution_demo_1.gif)  
-![Super-Resolution Demo](gif/super_resolution_demo_2.gif) 
-![Super-Resolution Demo](gif/super_resolution_demo_3.gif) 
-![Super-Resolution Demo](gif/super_resolution_demo_4.gif)
-![Super-Resolution Demo](gif/super_resolution_demo_5.gif)  
-*(example placeholder: replace with an actual demo gif or image showcasing the super-resolution effect)*
-
----
+### **Model Architecture Image**
+![Model Architecture](model.png)
 
 ## 🌟 **Key Features**
 
@@ -64,6 +54,21 @@ model = SuperResolutionNet().load_from_checkpoint("model.pth")
 # Upscale your image
 enhanced_image = model.upscale("your_image.jpg")
 ```
+**🚀 Unlock the Power of Image Super-Resolution!**  
+Transform low-resolution images into stunning high-resolution masterpieces with our state-of-the-art PyTorch model, powered by a revolutionary triple attention mechanism. Watch as every detail comes to life, and experience clarity like never before! ✨
+
+👀 **See the Magic in Action!**  
+Here’s a sneak peek at how our model enhances images—witness the incredible transformation as blurry, low-res images turn into crisp, high-res versions:
+
+![Super-Resolution Demo](gif/super_resolution_demo_1.gif)  
+![Super-Resolution Demo](gif/super_resolution_demo_2.gif)  
+![Super-Resolution Demo](gif/super_resolution_demo_3.gif)  
+![Super-Resolution Demo](gif/super_resolution_demo_4.gif)  
+![Super-Resolution Demo](gif/super_resolution_demo_5.gif)  
+
+*(The examples above are just a glimpse! Replace these placeholders with your own mind-blowing results.)*
+
+---
 
 ## 🏗️  **Architecture Overview**
 Innovative Components:
@@ -139,3 +144,5 @@ hr_image = sr_model.upscale(lr_image)
 # Save the enhanced image
 cv2.imwrite("high_res.jpg", hr_image)
 ```
+
+
