@@ -134,7 +134,7 @@ import cv2
 from model import SuperResolutionNet
 
 model = SuperResolutionNet()
-model.load_state_dict(torch.load("model.pth")['generator_state_dict'])
+model.load_state_dict(torch.load("model/model.pth")['generator_state_dict'])
 model.eval()
 
 lr_image = cv2.imread("low_res.jpg")
