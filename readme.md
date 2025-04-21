@@ -1,4 +1,5 @@
 # 🚀 Triple Attention Super-Resolution  🔍✨
+Author : Anthony (Zhejiang University)
 ### **Model Architecture Image**
 ![Model Architecture](model.png)
 
