@@ -129,20 +129,23 @@ This project is licensed under the MIT License – free for academic and commerc
 Sample inference code to upscale your own images:
 
 ```bash
+import torch
 import cv2
 from model import SuperResolutionNet
 
-# Load the pretrained model
-sr_model = SuperResolutionNet()
+model = SuperResolutionNet()
+model.load_state_dict(torch.load("model.pth")['generator_state_dict'])
+model.eval()
 
-# Read low-res image
 lr_image = cv2.imread("low_res.jpg")
+lr_tensor = torch.tensor(lr_image).float().div(255).unsqueeze(0).permute(0, 3, 1, 2)
 
-# Upscale to high-res
-hr_image = sr_model.upscale(lr_image)
+with torch.no_grad():
+    sr_image = model(lr_tensor).squeeze().permute(1, 2, 0).cpu().numpy()
 
-# Save the enhanced image
-cv2.imwrite("high_res.jpg", hr_image)
+cv2.imwrite("high_res.jpg", cv2.cvtColor((sr_image * 255).astype("uint8"), cv2.COLOR_RGB2BGR))
+print("Generated high-res image saved as 'high_res.jpg'")
+
 ```
 
 
