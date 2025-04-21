@@ -1,4 +1,5 @@
-# 🚀 **Triple Attention Super-Resolution**  🔍✨  
+# 🚀 **SCAttNet: Spatial and Channel Attention Network for Super-
+Resolution**  🔍✨  
 *Author: Anthony (Zhejiang University)*
 
 ## 📥 **Download the Notebook & Trained Model**
@@ -21,7 +22,8 @@ Ready to dive into cutting-edge super-resolution? I’ve made it easy for you to
 
 ## 🌟 **What Makes This Model Stand Out?**
 
-- **🧠 Triple Attention Mechanism**  
+- **🧠 Spatial and Channel Attention Network for Super-
+Resolution**  
   Unlock the power of **Channel**, **Spatial**, and **Self-Attention** to extract intricate features and preserve fine details—elevating your super-resolution capabilities to new heights!
 
 - **⚡ Progressive Upsampling for Ultra-Clear Images**  
@@ -111,7 +113,7 @@ Innovative Components:
 Here’s how TriAttSR stacks up across different datasets:
 
 
-| Dataset         | Bicubic          | SRCNN           | MemNet          | EDSR            | RDN             | RCAN            | RRDB ESRGAN     | Super-Resolution Model (Triple Attention) |
+| Dataset         | Bicubic          | SRCNN           | MemNet          | EDSR            | RDN             | RCAN            | RRDB ESRGAN     |SCAttNet|
 |-----------------|------------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-------------------------------------------|
 | **Set14**       | 26.00/0.7027     | 27.50/0.7513    | 28.26/0.7723    | 28.80/0.7876    | 28.81/0.7871    | 28.87/0.7889    | 28.88/0.7896     | **29.18/0.7712** |
 | **BSD100**      | 25.96/0.6675     | 26.90/0.7101    | 27.40/0.7281    | 27.71/0.7420    | 27.72/0.7419    | 27.77/0.7436    | 27.76/0.7432    | **28.71/0.7015** |
