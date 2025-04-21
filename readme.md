@@ -3,6 +3,19 @@ Author : Anthony (Zhejiang University)
 ### **Model Architecture Image**
 ![Model Architecture](model.png)
 
+## Model and Notebook
+
+I have uploaded the Jupyter Notebook and the trained model for easy download and exploration. The notebook walks through the process, and the model can be used for super-resolution tasks. Feel free to download and experiment!
+
+### Jupyter Notebook:
+[Access the notebook](https://drive.google.com/file/d/1uwmyMCoXayzm6EgTMbt-U-ujJks3fPYe/view?usp=sharing)
+
+### Trained Model:
+[Download the trained model (`model.pth`)](https://drive.google.com/drive/folders/1n_CiytoVxQnah6B-xmSN1F1FFRvWYsFV?usp=drive_link)
+
+---
+Explore, modify, and enhance the code for your own super-resolution tasks! If you have any questions, feel free to reach out. 🚀
+
 ## 🌟 **Key Features**
 
 - **🧠 Triple Attention Mechanism**  
