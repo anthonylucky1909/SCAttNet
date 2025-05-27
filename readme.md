@@ -1,4 +1,4 @@
-# 🚀 **SCAttNet: Spatial and Channel Attention Network for Super-
+# 🚀 SCAttNet: Spatial and Channel Attention Network for Super-Resolution
 Resolution**  🔍✨  
 *Author: Anthony (Zhejiang University)*
 
