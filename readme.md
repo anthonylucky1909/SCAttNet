@@ -1,6 +1,6 @@
 # 🚀 SCAttNet: Spatial and Channel Attention Network for Super-Resolution
 Resolution**  🔍✨  
-*Author: Anthony (Zhejiang University)*
+*Author: Anthony *
 
 ## 📥 **Download the Notebook & Trained Model**
 
@@ -110,7 +110,7 @@ Innovative Components:
 
 ## 📈  **Performance**
 
-Here’s how TriAttSR stacks up across different datasets:
+Here’s how SCAttNet stacks up across different datasets:
 
 
 | Dataset         | Bicubic          | SRCNN           | MemNet          | EDSR            | RDN             | RCAN            | RRDB ESRGAN     |SCAttNet|
@@ -124,7 +124,7 @@ Here’s how TriAttSR stacks up across different datasets:
 
 
 ## 🎯 **Use Cases**
-TriAttSR can be used in various real-world applications:
+SCAttNet can be used in various real-world applications:
 
 | Application               | Example Use                                                        |
 |---------------------------|--------------------------------------------------------------------|
@@ -137,10 +137,10 @@ TriAttSR can be used in various real-world applications:
 
 ## 🧑‍💻 **Development**
 Folder Structure
-Here’s the folder structure for TriAttSR:
+Here’s the folder structure for SCAttNet:
 
 ```bash
-TriAttSR/
+SCAttNet/
 ├── models/          # Core network architectures
 ├── datasets/        # Data loading utilities
 ├── configs/         # Training configurations
