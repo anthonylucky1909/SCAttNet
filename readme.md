@@ -1,5 +1,6 @@
 # 🚀 SCAttNet: Dual Attention Network for Image Super-Resolution 🔍✨  
 *Author: Anthony*
+
 **Platform:** Hugging Face Spaces  
 **Status:** Temporarily Unavailable  
 **Link:** [https://huggingface.co/spaces/anthonyhuang1909/SCAttNet](https://huggingface.co/spaces/anthonyhuang1909/SCAttNet)
