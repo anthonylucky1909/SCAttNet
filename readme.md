@@ -7,7 +7,15 @@
 [![Python Version][python-badge]][python-url]
 [![Conda][conda-badge]][conda-url]
 
+## 🖥️ Try Online Demo  
 
+You can try **SCAttNet** directly in your browser without installation:  
+👉 [**Live Demo on Hugging Face Spaces**](https://huggingface.co/spaces/anthonyhuang1909/SCAttNet)
+
+> ⚠️ **Note:** The demo is hosted on a free CPU tier at Hugging Face Spaces.  
+> Image generation may take some time depending on server load. Please be patient while the results are processed.  
+
+---
 
 _✨ State-of-the-art super-resolution with **dual attention mechanisms** (channel + spatial) for sharper, high-fidelity images._
 
